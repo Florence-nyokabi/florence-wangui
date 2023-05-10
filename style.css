@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #14202C;
+    color: #95ACBF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: #333; */
+    /* color: #fff; */
+    cursor: pointer;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    float: right;
+  }
+  
+  nav a {
+    /* color: #fff; */
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 120%;
+  }
+  nav a:hover{
+    background-color: #f7fbfd;
+    color: #14202C;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .about-section{
+  /* margin-top: -40%; */
+  margin-top: 18%;
+  margin-left: -8%;
+  align-content: center;
+}
+#home{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.paragraph{
+  text-align: center;
+}
+#about h2{
+  /* margin-left: 32%; */
+  text-align: center;
+}
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 55%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  button{
+    color: #332F2E;
+    background-color: #95ACBF;
+    height: fit-content;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 5%;
+    border-color: #95ACBF ;
+  }
+  i{
+    padding: 2px 8px;
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin-bottom: 1rem;
+    }
+    h1{
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    nav {
+      font-size: 0.8rem;
+    }
+    main {
+      padding: 1rem;
+    }
+    
+    h1{
+      font-size: 1.2rem;
+    }
+    h2 {
+      font-size: 0.8rem;
+    }
+  }
+    
