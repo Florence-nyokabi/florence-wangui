@@ -60,6 +60,9 @@
   /* margin-left: 32%; */
   text-align: center;
 }
+#about p{
+  font-size: 110%;
+}
   section {
     margin-bottom: 2rem;
   }
